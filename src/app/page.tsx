@@ -1,8 +1,8 @@
 import Image from "next/image";
 import logo from "@/assets/images/logo/logo.png";
-import * as Lucide from "lucide-react";
 import { menuItems } from "@/data";
 import Link from "next/link";
+import MobileMenu from "../../components/mobileMenu";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           className="max-w-32"
         />
 
-        <Lucide.Menu className="text-light-brand md:hidden block" />
+        <MobileMenu />
 
         <div className="hidden md:flex gap-5">
           {menuItems.map((item, idx) => (
