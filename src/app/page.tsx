@@ -95,20 +95,20 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-            <Link href={"/#pricing"}>
-              <button
-                className="cursor-pointer rounded-md bg-accent-brand/90 px-3 py-2 font-medium text-light-brand transition-all duration-200 ease-in hover:bg-accent-brand"
-              >
+            <button
+              className="cursor-pointer rounded-md bg-accent-brand/90 px-3 py-2 font-medium text-light-brand transition-all duration-200 ease-in hover:bg-accent-brand"
+            >
+              <Link href={"/#pricing"}>
                 See Our Gifts
-              </button>
-            </Link>
-            <Link href={"https://www.instagram.com/basketorra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}>
-              <button
-                className="cursor-pointer rounded-md border border-accent-brand bg-transparent px-3 py-2 font-medium text-light-brand transition-all duration-200 ease-in hover:bg-accent-brand"
-              >
+              </Link>
+            </button>
+            <button
+              className="cursor-pointer rounded-md border border-accent-brand bg-transparent px-3 py-2 font-medium text-light-brand transition-all duration-200 ease-in hover:bg-accent-brand"
+            >
+              <Link href={"https://www.instagram.com/basketorra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}>
                 Ask for Special Baskets
-              </button>
-            </Link>
+              </Link>
+            </button>
           </div>
         </div>
 
