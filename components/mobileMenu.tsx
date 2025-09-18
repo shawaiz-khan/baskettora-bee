@@ -16,7 +16,7 @@ const MobileMenu = () => {
             />
 
             {isMenu && (
-                <div className="absolute bottom-0 right-0 w-full translate-y-48 z-50">
+                <div className="absolute bottom-0 right-0 w-full translate-y-38 z-50">
                     <div className="flex flex-col w-full gap-5 bg-light-brand shadow-lg p-3 rounded-md">
                         {menuItems.map((item, idx) => (
                             <Link
